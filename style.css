@@ -1,0 +1,211 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#navbar{
+    display: flex;
+    /* border: 2px solid black; */
+    position: relative;
+    height: 150px;
+    align-items: center;
+    
+}
+
+#navbar::before{
+    content: "";
+    position: absolute;
+    background-color: #98BA91;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+}
+#navbar img{
+    padding: 30px;
+    /* border: 2px solid red; */
+    background-color: green;
+    /* border-radius: 10%; */
+    height: 150px;
+    margin: 0px;
+}
+#navbar ul{
+    display: flex;
+    /* border: 2px solid black; */
+    align-items: center;
+    background-color: green;
+    height: 100px;
+    width: 100vw;
+    /* margin: 10px; */
+    
+}
+#navbar ul li{
+    list-style-type: none;  
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 23px;
+    border-radius: 24px;
+    text-align: center;
+    font-size: 2.1rem;
+    color: white;
+}
+#navbar ul li a:hover{
+    background-color: rgb(2, 56, 27);
+}
+#abc a{
+    background-color: black;
+    height: 100%;
+
+}
+
+#home{
+    /* border: 2px solid black; */
+    text-align: center;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 75px;
+    height: 458px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    background: url('./Images/HomeBGU.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    z-index: -1;
+    opacity: 1;
+    top: 0;
+    left: 0;
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    /* margin-bottom: 90px; */
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: 'Bree Serif', serif;
+}
+#services{
+    /* margin: 24px; */
+    display: flex;
+}
+#services .box img{
+    display: block;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+}
+#services .box{
+    border: 2px solid red;
+    padding: 34px;
+    margin: 0px 6px;
+    border-radius: 28px;
+    background-color: rgb(228, 249, 235);
+    width: 33%;
+}
+#services .box p{
+    font-family: 'Bree Serif', serif;
+}
+#more-about-ewaste #client{
+    display: flex;
+    text-align: center;
+}
+#more-about-ewaste h3{
+    font-size: 2.8rem;
+    padding: 12px;
+    color: black;
+}
+#more-about-ewaste p{
+    font-size: 1.3rem;
+    padding: 12px;
+    color: black;
+}
+#more-about-ewaste #client .item{
+    width: 50%;
+    border: 2px solid red;
+    margin: 10px;
+    border-radius: 23px;
+    padding: 23px;
+}
+#more-about-ewaste{
+    position: relative;
+}
+#more-about-ewaste::before{
+    content: "";
+    background: url('./Images/AboutBG.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 0.2;
+}
+#contact{
+    margin-top:5px;
+    position: relative;
+}
+#contact::before{
+    content: "";
+    background: url('./Images/QueryBG.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+#contact-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 34px;
+}
+#contact-box input,#contact-box textarea{
+    width: 100%;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 2px 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 2px 20px;
+
+}
+
+
+
+
+
+
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+    font-family: 'Bree Serif', serif;
+}
+.center{
+    text-align: center;
+}

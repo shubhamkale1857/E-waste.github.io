@@ -1,0 +1,54 @@
+#navbar{
+    display: flex;
+    flex-direction: column;
+}
+#navbar img{
+    height: 80px;
+    background-color: green;
+    padding: 0px;
+}
+#home{
+    height: 300px;
+    padding: 0px;
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    /* margin-bottom: 90px; */
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Bree Serif', serif;
+}
+#services{
+    /* margin: 24px; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+#services .box img{
+    display: block;
+    margin: auto;
+    height: 80px;
+    width: 80px;
+}
+#services .box{
+    width: 100%;
+}
+#more-about-ewaste #client{
+    display: flex;
+    flex-direction: column;
+}
+#more-about-ewaste #client .item{
+    width: 100%;
+}
+
+
+.h-primary{
+    font-size: 1.8rem;
+    padding: 2px;
+    font-family: 'Bree Serif', serif;
+}
